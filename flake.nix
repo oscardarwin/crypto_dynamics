@@ -15,6 +15,9 @@
             python3
             poetry
           ];
+          shellHook = ''
+            exec fish
+          '';
         };
       };
     };
