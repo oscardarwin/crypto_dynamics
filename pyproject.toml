@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "crypto-dynamics"
+version = "0.1.0"
+description = "We compute a representation of the bitcoin blockchain as a dynamical system"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bitcoinrpc = "0.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
